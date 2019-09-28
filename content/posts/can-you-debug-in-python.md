@@ -2,7 +2,7 @@
 title: Can you debug in python?
 date: 2019-07-20T18:30:00.000Z
 thumb_img_path: /images/debugging.png
-content_img_path: /images/debugging.png
+content_img_path: /images/debugging-1-.png
 excerpt: >-
   I talk about powerful tools that one can utilise to improve productivity while
   working with python.
