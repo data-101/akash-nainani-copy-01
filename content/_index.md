@@ -1,35 +1,41 @@
 ---
 title: Home
 sections:
-  - type: heroblock
-    section_id: hero
-    component: hero_block.html
+  - component: hero_block.html
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
-  - type: contentblock
-    title: About
-    section_id: about
-    actions:
+      Welcome to my personal website. Here I would like to showcase who I am and
+      what I am upto these days, Hope you like the content.
+    section_id: hero
+    type: heroblock
+  - actions:
       - label: Contact Me
         url: /contact
     component: content_block.html
     content: >-
-      This is the "about" excerpt. It can be used to provide a paragraph about
-      yourself that people can read on the homepage to get a sense of who you
-      are. There also exists a dedicated about page where you can write more
-      about yourself for those who are interested.
-  - type: postsblock
-    title: Recent Posts
-    section_id: recent-posts
-    actions:
+      I'm a Software Engineer by profession. But I don't like to limit myself by
+      a designation, I like to call myself a creator or a maker. I love to solve
+      real world problem and if we end up having a discussion it would most
+      likely be some technology or some sort of problem.  Currently I'm all
+      about Deep learning and developing full stack solutions to all sorts of
+      problems. You will find a projects section on the left. "Definitely!"
+      check that out, you will find live working demo of things I've built.
+      Also, I'm giving a shot to blogging so do check out articles too. You can
+      find them below.
+    section_id: about
+    title: About
+    type: contentblock
+  - actions:
       - label: View Blog
         url: blog/index.html
     component: posts_block.html
     num_posts_displayed: 4
+    section_id: recent-posts
+    title: Recent Posts
+    type: postsblock
 menu:
   main:
     name: Home
     weight: 1
 layout: home
 ---
+
