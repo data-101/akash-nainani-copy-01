@@ -1,6 +1,6 @@
 ---
 title: Can you debug in python?
-date: 2019-09-28T04:16:31.232Z
+date: 2019-07-20T18:30:00.000Z
 layout: post
 ---
 # Introduction
