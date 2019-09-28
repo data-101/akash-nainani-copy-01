@@ -11,7 +11,7 @@ params:
     bg: dark
     has_nav: true
     has_social: true
-    profile_img: images/avatar.png
+    profile_img: /images/webp.net-compress-image-1-.jpg
     tagline: My Personal Website
     title: Akash Nainani
   layout_style: overflow
